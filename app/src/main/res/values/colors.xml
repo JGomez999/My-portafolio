@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorSucc">#A899C9EA</color>
+    <color name="colorSucc2">#A8165D73</color>
+    <color name="colorFail">#A8E0FFCD</color>
+    <color name="colorFail2">#A8397316</color>
+    <color name="color_botton">#2984B8</color>
+    <color name="color_background2">#BCE0F4</color>
+    <color name="color_background3">#DDEBF3</color>
+    <color name="button_background">#3E7295</color> <!-- Add this line -->
+    <color name="text">#244A63</color> <!-- Add this line -->
+    <color name="background">#6DA4C8</color> <!-- Add this line -->
+    <color name="button_border">#FFFFFF</color> <!-- Add this line -->
+    <color name="button_text">#14919B</color> <!-- Add this line -->
+</resources>
