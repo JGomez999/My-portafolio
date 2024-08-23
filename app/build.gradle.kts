@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("com.google.gms.google-services") version "4.4.1" apply true
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -48,7 +48,7 @@ dependencies {
     implementation("com.google.firebase:firebase-core:21.1.1")
     implementation("com.google.firebase:firebase-analytics")
     // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
+    implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
 
 // Firebase Core and Analytics
     implementation("com.google.firebase:firebase-core:21.1.1")

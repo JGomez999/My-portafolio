@@ -26,6 +26,7 @@ public class ChatPresenterImpl implements ChatPresenter {
 
     // Constructor del presentador que recibe una vista (ChatContract)
     public ChatPresenterImpl(ChatContract view) {
+
         this.view = view;
     }
 
@@ -122,7 +123,8 @@ public class ChatPresenterImpl implements ChatPresenter {
                 .whereEqualTo("email", user.getEmail())
                 .get()
                 .addOnSuccessListener(queryDocumentSnapshots -> {
-                    for (QueryDocumentSnapshot documentSnapshot : queryDocumentSnapshots) {
+                    for (QueryDocumentSnapshot documentSnapshot : queryDocumentSnapshots)
+                    {
                         UserModel userFromFirestore = documentSnapshot.toObject(UserModel.class);
                         if (userFromFirestore != null) {
                             if (userFromFirestore.getUserId() != null) {

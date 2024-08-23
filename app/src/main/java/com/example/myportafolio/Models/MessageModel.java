@@ -1,7 +1,7 @@
 package com.example.myportafolio.Models;
 import java.util.Date;
 public class MessageModel {
-    private String messageId;       // Identificador único del mensaje
+    private String messageId;        // Identificador único del mensaje
     private String messageText;     // Texto del mensaje
     private String senderId;        // ID del remitente del mensaje
     private String senderName;      // Nombre del remitente del mensaje
@@ -35,7 +35,7 @@ public class MessageModel {
 
     // Getter y setter para el correo electrónico del remitente
     public String getSenderEmail() {
-        return senderEmail;
+    return senderEmail;
     }
 
     public void setSenderEmail(String senderEmail) {
@@ -43,6 +43,7 @@ public class MessageModel {
     }
 
     // Getters y setters para los demás atributos
+
     public String getMessageId() {
         return messageId;
     }

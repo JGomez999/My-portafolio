@@ -13,6 +13,8 @@ public class UserModel {
     }
 
     // Constructor para inicializar un UserModel con ID, correo electrónico y nombre
+
+
     public UserModel(String userId, String email, String name) {
         this.userId = userId;
         this.email = email;
@@ -20,6 +22,7 @@ public class UserModel {
     }
 
     // Getter y setter para la lista de IDs de los mensajes enviados por el usuario
+
     public List<String> getMessageIds() {
         return messageIds;
     }
@@ -29,6 +32,7 @@ public class UserModel {
     }
 
     // Getters y setters para los demás atributos
+
     public String getUserId() {
         return userId;
     }

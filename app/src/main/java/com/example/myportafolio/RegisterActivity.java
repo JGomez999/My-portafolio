@@ -40,14 +40,15 @@ public class RegisterActivity extends AppCompatActivity implements RegistroContr
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
+
                 presenter.registerUser();
             }
         });
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(RegisterActivity.this, HomeActivity.class);
                 startActivity(intent);
                 finish(); // Cierra esta actividad para que el usuario no pueda volver atrás
